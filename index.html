@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Title</title>
+</head>
+<body>
+<div>
+  <form name="calc" id="Calc">
+    <table class="Table">
+      <tr>
+        <td colspan="4" id="Title">Calculezaurus 2000</td>
+      </tr>
+      <tr>
+        <td colspan="4"><input type="text" name="out" id="Out"></input></td>
+      </tr>
+      <tr>
+        <td><input  type="button" name="clear" value="C" id="c" OnClick="calc.out.value = ''"></td>
+        <td colspan="2" id="E-roon"></td>
+        <td><input  type="button" name="ClearEntry" value="CE" id="ce" OnClick="calc.out.value = ''"></td>
+      </tr>
+      <tr>
+        <td><input class="Buttons" type="button" name="one" value="1" OnClick="calc.out.value += '1'"></input></td>
+        <td><input class="Buttons" type="button" name="two" value="2" OnClick="calc.out.value += '2'"></input></td>
+        <td><input class="Buttons" type="button" name="three" value="3"OnClick="calc.out.value += '3'"></input></td>
+        <td><input class="Buttons" type="button" name="Sub" value="+" OnClick="calc.out.value += '+'"></input></td>
+      </tr>
+      <tr>
+        <td><input class="Buttons" type="button" name="four" value="4" OnClick="calc.out.value += '4'"></input></td>
+        <td><input class="Buttons" type="button" name="five" value="5" OnClick="calc.out.value += '5'"></input></td>
+        <td><input class="Buttons" type="button" name="six" value="6" OnClick="calc.out.value += '6'"></input></td>
+        <td><input class="Buttons" type="button" name="Sub" value="-" OnClick="calc.out.value += '-'"></input></td>
+      </tr>
+      <tr>
+        <td><input class="Buttons" type="button" name="seven" value="7" OnClick="calc.out.value += '7'"></input></td>
+        <td><input class="Buttons" type="button" name="eight" value="8" OnClick="calc.out.value += '8'"></input></td>
+        <td><input class="Buttons" type="button" name="nine" value="9" OnClick="calc.out.value += '9'"></input></td>
+        <td><input class="Buttons" type="button" name="Mul" value="x" OnClick="calc.out.value += '*'"></input></td>
+      </tr>
+      <tr>
+        <td><input class="Buttons" type="button" name="point" value="." OnClick="calc.out.value += '.'"></input></td>
+        <td><input class="Buttons" type="button" name="null" value="0" OnClick="calc.out.value += '0'"></input></td>
+        <td><input class="Buttons" type="button" name="res" value="=" OnClick="calc.out.value = eval(calc.out.value)"></input></td>
+        <td><input class="Buttons" type="button" name="Div" value="/" OnClick="calc.out.value += '/'"></input></td>
+      </tr>
+    </table>
+  </form>
+</div>
+</body>
+</html>

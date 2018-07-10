@@ -1,0 +1,100 @@
+body {
+  background: url("colorful-abstract-background-1453658319U3n.jpg") 100% 100% no-repeat;
+  background-size: cover;
+}
+@font-face {
+  font-family: first_font;
+  src: url(BROADW.TTF);
+
+}
+#Title {
+  color: rgb(250,150,050);
+  font-family: "first_font";
+  font-size: 30px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#Out {
+  color: rgb(0,0,150);
+  font-family: "Bodoni Bd BT";
+  font-size: 25px;
+  background: silver;
+  width: 270px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: right;
+}
+#E-roon{
+  color: maroon;
+  font-family: "Comic Sans MS";
+  font-size: 23px;
+}
+.Table {
+  top: 200px;
+  left: 200px;
+  background: SlateGrey;
+  width: 370px;
+  text-align: center;
+  border-radius: 7px;
+  height: auto;
+  position: relative;
+  box-shadow: inset 0 0 10px 5px rgba(0,0,0,0.3)
+}
+.Table:before {
+  content: "";
+  background-color: SlateGrey;
+  display: block;
+  position: absolute;
+  height: 18px;
+  width: 99%;
+  top: -7px;
+  left: 0.5%;
+  z-index: -50;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: inset 0 0 100px 5px rgba(0,0,0,0.3)
+
+}
+input.Buttons {
+  font-family: Gadugi;
+  font-size: 20px;
+  color: beige;
+  background: rgb(071,071,071);
+  box-shadow: 0 -3px rgb(61,61,61) inset;
+  transition: 0.2s;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  margin: 4px;
+}
+#c{
+  font-family: Gadugi;
+  font-size: 20px;
+  color: beige;
+  background: maroon;
+  box-shadow: 0 -3px rgb(95,0,0) inset;
+  transition: 0.2s;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  margin: 4px;
+}
+#ce{
+  font-family: Gadugi;
+  font-size: 20px;
+  color: beige;
+  background: maroon;
+  box-shadow: 0 -3px rgb(95,0,0) inset;
+  transition: 0.2s;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 80px;
+  height: 40px;
+  margin: 4px;
+}
